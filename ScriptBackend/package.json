@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is JavaScript + Node backend tutorial ...",
+  "homepage": "https://github.com/cyberhawk01/JavaScriptBackend#readme",
+  "bugs": {
+    "url": "https://github.com/cyberhawk01/JavaScriptBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberhawk01/JavaScriptBackend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6"
+  }
+}
