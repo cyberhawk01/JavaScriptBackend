@@ -1,4 +1,4 @@
-import mongoose , {Schema} from "mongoose";
+import mongoose ,{Schema} from "mongoose";
 
 const postSchema = new Schema(
     {
@@ -13,10 +13,10 @@ const postSchema = new Schema(
             trim:true
         },
         age:{
-            type:Number,
-            required:true,
-            min:1,
-            max:150
+            type: Number,
+            required: true,
+            min: 1,
+            max: 150
         }
     },
     {
